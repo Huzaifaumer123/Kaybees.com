@@ -1,0 +1,126 @@
+header{
+    align-items: center;
+    text-align: center;
+}
+.phone-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: blue; /* Red background */
+    color: white; /* White text and icon */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.phone-button i {
+    margin-right: 10px; /* Space between icon and text */
+}
+.phone-button:hover {
+    background-color: blue; /* Darker red on hover */
+}
+.location-button {
+    background-color: blue; /* Blue background */
+    color: white;              /* White text color */
+    font-size: 18px;           /* Font size for the text */
+    padding: 10px 20px;        /* Padding around the text and icon */
+    border: none;              /* Remove border */
+    border-radius: 5px;        /* Rounded corners */
+    display: inline-flex;      /* Inline-flex for better alignment */
+    align-items: center;       /* Center the icon and text vertically */
+    cursor: pointer;          /* Pointer cursor when hovered */
+  }
+
+  .location-button i {
+    margin-right: 8px;         /* Space between the icon and text */
+  }
+
+  .location-button:hover {
+    background-color:blue; /* Darker blue on hover */
+  }   
+
+
+
+.cart{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.search{
+    width: 250px;
+    border: 02px solid blue;
+    border-radius: 30px;
+}
+
+.navbar{
+    background-color: rgba(55, 55, 240, 0.884);
+    justify-content: center;
+    
+}
+.nav-pills .nav-link{
+    background-color: white;
+    color: whitesmoke
+}
+ .nav-pills .nav-link.active{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+ }   
+.searchme{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-left: 300px;
+    margin-top: 20px;
+    border: 02px solid blue;
+    border-radius: 30px;
+    padding: 08px;
+}
+input{
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 950px;
+    margin: 10px;
+}
+.icon-search{
+    color: blue;
+    padding: 10px 20px;
+
+}
+.picturecart{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image:url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.cartbutton{
+    width: 100%;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+}
+.imagehr{
+    border-left: 3px solid black ;height: 500px;
+    
+}
+::-webkit-scrollbar{
+    background:#e8f2ff
+}
+::-webkit-scrollbar-thumb{
+    background: #0043e8;
+}
+.pricetag{
+    display: flex;
+    justify-content: center;
+     margin-bottom: 20px;
+     background-color: yellow;
+     border-radius: 30px;
+}
